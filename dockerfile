@@ -1,4 +1,4 @@
-FROM microsoft/windowsservercore:latest
+FROM microsoft/windowsservercore:1709
 ENV chocolateyUseWindowsCompression false
 RUN PowerShell -Command \
     Set-ExecutionPolicy Bypass -Scope Process -Force; \
