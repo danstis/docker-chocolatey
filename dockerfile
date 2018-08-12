@@ -1,4 +1,4 @@
-FROM microsoft/windowsservercore
+FROM microsoft/windowsservercore:latest
 LABEL author='Dan Anstis'
 ENV chocolateyUseWindowsCompression false
 RUN PowerShell -Command \
